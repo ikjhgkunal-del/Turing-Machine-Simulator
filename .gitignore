@@ -1,0 +1,14 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Local environment and generated files
+.env
+.venv/
+venv/
+__pycache__/
+node_modules/
+dist/
+build/
