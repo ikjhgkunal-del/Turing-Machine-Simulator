@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1000" viewBox="0 0 1680 1000" fill="none">
+ <defs>
+  <linearGradient id="room" x2="1680" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#101c23"/><stop offset=".5" stop-color="#0d171c"/><stop offset="1" stop-color="#060d10"/></linearGradient>
+  <linearGradient id="glass"><stop stop-color="#34505b" stop-opacity=".25"/><stop offset="1" stop-color="#142731" stop-opacity=".05"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#bd9056" stop-opacity=".32"/><stop offset="1" stop-color="#bd9056" stop-opacity="0"/></radialGradient>
+  <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#514032"/><stop offset="1" stop-color="#151a1b"/></linearGradient>
+  <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#364045"/><stop offset=".5" stop-color="#141d21"/><stop offset="1" stop-color="#0a1013"/></linearGradient>
+  <radialGradient id="rotor"><stop stop-color="#4a4133"/><stop offset=".35" stop-color="#181f20"/><stop offset=".75" stop-color="#111a1e"/><stop offset=".92" stop-color="#5c4831"/><stop offset="1" stop-color="#161c1e"/></radialGradient>
+  <pattern id="windows" width="110" height="215" patternUnits="userSpaceOnUse"><rect x="4" y="4" width="98" height="201" fill="url(#glass)"/><path d="M55 0v215M0 105h110" stroke="#060e12" stroke-width="7"/></pattern>
+  <pattern id="rotors" width="105" height="102" patternUnits="userSpaceOnUse"><circle cx="52" cy="50" r="37" fill="url(#rotor)"/><circle cx="52" cy="50" r="13" stroke="#806141" stroke-opacity=".5"/><path d="M52 19v15M52 66v15M20 50h16M68 50h16M29 27l11 12M65 65l11 10" stroke="#977347" stroke-opacity=".4" stroke-width="3"/><circle cx="52" cy="50" r="4" fill="#997348"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+ </defs>
+ <path fill="url(#room)" d="M0 0h1680v1000H0z"/>
+ <path fill="url(#windows)" d="M410 0h385v570H410z"/>
+ <path d="M400 0v579M800 0v579M392 574h420" stroke="#0a1217" stroke-width="17"/>
+ <path d="M0 260h385M0 580h1680M0 589h1680" stroke="#2b3232" stroke-opacity=".4" stroke-width="3"/>
+ <ellipse cx="955" cy="457" rx="400" ry="440" fill="url(#glow)"/>
+ <g transform="translate(820 285) rotate(-3)"><rect x="-15" y="-18" width="468" height="350" rx="4" fill="#090f12" stroke="#3f3b31" stroke-width="6"/><path fill="url(#rotors)" d="M0 0h420v307H0z"/><path d="m-18 335-48 112h564l-38-112" fill="url(#metal)" stroke="#353b37" stroke-width="4"/><path d="M-15 367h407M-24 396h392" stroke="#4a483b" stroke-opacity=".4" stroke-width="4"/><g fill="#bda16e"><circle cx="371" cy="366" r="4"/><circle cx="389" cy="366" r="4"/><circle cx="407" cy="366" r="4"/></g></g>
+ <g filter="url(#blur)" opacity=".6"><path d="M489 630c7-88 17-117 55-127l52-2c52 21 65 50 75 132" fill="#060b0e"/><ellipse cx="572" cy="464" rx="32" ry="43" fill="#070d10"/><path d="M610 642c-7-48-3-74 16-98 14-15 52-16 67-2l56 100" fill="#060c0e"/><ellipse cx="668" cy="516" rx="26" ry="35" fill="#0a1012"/></g>
+ <path d="M0 690 1455 623l225 183H0Z" fill="url(#desk)"/><path d="M0 710 1500 641" stroke="#6b5035" stroke-opacity=".2" stroke-width="5"/>
+ <g transform="translate(600 575)"><path d="M0 0h80v8H0zM18-5h52v5H18z" fill="#1b2425"/><path d="M40 0V-83l27-22" stroke="#5b5038" stroke-width="5"/><path d="M41-95c10-18 30-20 44 1Z" fill="#0c1417" stroke="#454338"/><ellipse cx="63" cy="-93" rx="22" ry="4" fill="#bc9a62" opacity=".8"/></g>
+ <g><path d="M927 0v81" stroke="#060c10" stroke-width="9"/><path d="M840 151c6-51 25-73 64-80V51h43v21c36 8 58 36 64 79" fill="#080f13" stroke="#242c2d" stroke-width="2"/><ellipse cx="925" cy="151" rx="87" ry="15" fill="#90704b"/><ellipse cx="925" cy="148" rx="64" ry="9" fill="#ccb185" opacity=".6"/><ellipse cx="925" cy="147" rx="16" ry="6" fill="#f3dec0"/></g>
+ <path d="m1172 806 438-33 70 58v159h-508Z" fill="#151b1b"/><path d="m1158 808 460-39 62 54-487 46Z" fill="#3c3329" opacity=".5"/>
+</svg>
